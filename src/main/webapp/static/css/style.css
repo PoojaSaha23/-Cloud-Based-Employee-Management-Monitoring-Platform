@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #e0f7fa;
+    padding: 10px;
+    height: 120px;
+}
+
+.left {
+    width: 50%;
+}
+
+.datetime {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.login {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+}
+
+.slideshow-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.mySlides 
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.login-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Admin Login Page Styles */
+.login-container {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #00796B;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #004D40;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    background-color: #00796B;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #004D40;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
